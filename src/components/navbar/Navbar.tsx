@@ -5,7 +5,6 @@ import { usePathname, useRouter } from "next/navigation";
 import { NavItem } from "../interface/NavbarConfig";
 
 function Navbar() {
-  const router = useRouter();
   const pathname = usePathname();
   const navItems: NavItem[] = [
     { label: "Home", href: "/" },
